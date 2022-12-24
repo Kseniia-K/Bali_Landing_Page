@@ -40,7 +40,6 @@ nav {
 .banner {
     /* background-color: mediumslateblue; */
     width: calc(100% - 40px);
-    /* height: 100vh; */
     height: calc(100vh - 40px);
     display: flex;
     justify-content: center;
@@ -137,4 +136,118 @@ h1 {
     display: flex;
     margin-top: 30px;
     margin-left: 215px;
+}
+.weather {
+    background-color: pink;
+    width: 100vw;
+    height: calc(100vh - 40px);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.weather>h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards1 {
+    height: 400px;
+    width: calc(100% - 300px);
+    background-color: lavender;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    /* flex-wrap: wrap; */
+    transform-origin: center;
+    transition-duration: 2s;
+    transition-property: transform;
+    transition-timing-function: linear;
+    animation-name: circle1;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* position: absolute;
+    top: 68px; */
+    position: relative;
+    z-index: 1;
+}
+.cards1:hover {
+    animation-play-state: paused;
+}
+@keyframes circle1 {
+    10% {
+        transform: translate(0);
+    }
+    50% {
+        transform: translate(100vw);
+    }
+    100% {
+        transform: translate(100vw, 0);
+    }
+    /* 0% {
+        transform: translate(-100vw);
+    }
+    40% {
+        transform: translate(0);
+    }
+    2% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(100vw, 0);
+    } */
+}
+@keyframes circle2 {
+    0% {
+        transform: translate(-100vw);
+    }
+    50% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(100vw, 0);
+    }
+    /* 58% {
+        transform: translate(100vw);
+    }
+    100% {
+        transform: translate(100vw, 0);
+    } */
+    /* 100% {
+        transform: translate(100vw, 0);
+    } */
+}
+.cards2 {
+    background-color: bisque;
+    height: 400px;
+    width: calc(100% - 300px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    /* flex-wrap: wrap; */
+    transform-origin: center;
+    transition-duration: 2s;
+    transition-property: transform;
+    transition-timing-function: linear;
+    animation-name: circle2;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* position: relative; */
+    position: absolute;
+    top: 68px;
+    /* z-index: -1; */
+}
+.cards2:hover {
+    animation-play-state: paused;
+}
+.weatherCard {
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+    width: 130px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
 }
