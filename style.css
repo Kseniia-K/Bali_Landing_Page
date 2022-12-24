@@ -38,7 +38,7 @@ nav {
     font-size: 20px;
 }
 .banner {
-    background-color: mediumslateblue;
+    /* background-color: mediumslateblue; */
     width: calc(100% - 40px);
     /* height: 100vh; */
     height: calc(100vh - 40px);
@@ -50,11 +50,91 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 80px;
+    transition: 2s;
 }
 h1 {
     font-size: 70px;
     color: snow;
+    margin-bottom: 0;
 }
 .banner:hover {
     background-image: url(https://img.freepik.com/free-photo/aerial-shot-rice-terrace-sunlight-evening-gianyar-bali-indonesia_181624-60419.jpg?w=826&t=st=1671883064~exp=1671883664~hmac=9ef6d187b95ee423127896a28e090f0d64cab7517e36571746aa49c688988179);
+}
+.banner>.banner2>p {
+    color: transparent;
+}
+.banner>.banner2>a {
+    color: transparent;
+}
+.banner2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.banner:hover>.banner2>p {
+    color: snow;
+    font-size: 20px;
+    border: 1px solid inherit;
+    border-radius: 10px;
+    background-color: rgba(183, 228, 47, 0.672);
+    /* background-color: rgba(228, 204, 47, 0.672); */
+    width: 350px;
+    height: auto;
+    text-align: left;
+    padding: 30px;
+}
+.banner:hover>.banner2>.button {
+    color: snow;
+    background-color: rgb(255, 172, 130);
+    width: 100px;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.bacColor{
+    width: 100vw;
+    height: auto;
+    background-color: rgb(71, 117, 231);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.description {
+    /* background-color: salmon; */
+    width: calc(100% - 140px);
+    height: calc(100vh - 120px);
+    background-image: url(https://img.freepik.com/free-photo/woman-standing-rock-atuh-beach-nusa-penida-island-bali-indonesia_335224-344.jpg?w=1480&t=st=1671890081~exp=1671890681~hmac=7ab580407d2942c032e969ee24d46d1ad99de7672568b89969fbe0d51aac9d86);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin: 40px 0;
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column; */
+}
+.description2 {
+    border: 1px solid inherit;
+    border-radius: 10px;
+    background-color: rgba(135, 206, 250, 0.900);
+    padding: 10px 30px;
+    margin-left: 100px;
+    margin-top: 85px;
+    width: 300px;
+    height: auto;
+    font-size: 20px;
+    text-align: left;
+}
+.button2 {
+    color: inherit;
+    background-color: mediumaquamarine;
+    width: 100px;
+    padding: 12px 5px 12px 12px;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 215px;
 }
