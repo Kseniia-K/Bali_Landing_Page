@@ -47,7 +47,7 @@ nav {
     justify-content: center;
     align-items: flex-start;
     padding: 20px;
-    background-image: url(https://img.freepik.com/free-photo/beautiful-girl-sitting-viewpoint-koh-nangyuan-island-near-koh-tao-island-surat-thani-thailand_335224-1093.jpg?w=1480&t=st=1671882033~exp=1671882633~hmac=b30ca35b5e37f106bee6b0a0c7402203d5f3404ce2d89733ef87e8cd7a91ff1d);
+    background-image: url(./img/yellow.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 80px;
@@ -59,7 +59,7 @@ h1 {
     margin-bottom: 0;
 }
 .banner:hover {
-    background-image: url(https://img.freepik.com/free-photo/aerial-shot-rice-terrace-sunlight-evening-gianyar-bali-indonesia_181624-60419.jpg?w=826&t=st=1671883064~exp=1671883664~hmac=9ef6d187b95ee423127896a28e090f0d64cab7517e36571746aa49c688988179);
+    background-image: url(./img/bannerRise.jpg);
 }
 .banner>.banner2>p {
     color: transparent;
@@ -106,7 +106,7 @@ h1 {
     /* background-color: salmon; */
     width: calc(100% - 140px);
     height: calc(100vh - 120px);
-    background-image: url(https://img.freepik.com/free-photo/woman-standing-rock-atuh-beach-nusa-penida-island-bali-indonesia_335224-344.jpg?w=1480&t=st=1671890081~exp=1671890681~hmac=7ab580407d2942c032e969ee24d46d1ad99de7672568b89969fbe0d51aac9d86);
+    background-image: url(./img/red.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
@@ -142,7 +142,7 @@ h1 {
     display: flex;
     flex-direction: column;
     position: relative;
-    background-image: url(https://img.freepik.com/free-photo/kelingking-beach-sunset-nusa-penida-island-bali-indonesia_335224-338.jpg?w=1480&t=st=1671960709~exp=1671961309~hmac=afa17346152848ae3c9423ea0ef07091cebca87e5a2be959129657ff90b2eb8d);
+    background-image: url(./img/weatherSunSet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -163,7 +163,6 @@ h1 {
     justify-content: flex-start;
     align-items: center;
     gap: 40px;
-    /* flex-wrap: wrap; */
     transform-origin: center;
     transition-duration: 2s;
     transition-property: transform;
@@ -172,8 +171,6 @@ h1 {
     animation-duration: 24s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    /* position: absolute;
-    top: 68px; */
     position: relative;
     z-index: 1;
     margin-top: 0;
@@ -211,7 +208,6 @@ h1 {
     justify-content: flex-start;
     align-items: center;
     gap: 40px;
-    /* flex-wrap: wrap; */
     transform-origin: center;
     transition-duration: 2s;
     transition-property: transform;
@@ -220,10 +216,8 @@ h1 {
     animation-duration: 23s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    /* position: relative; */
     position: absolute;
-    top: 91px;
-    /* z-index: -1; */
+    top: 81px;
 }
 .cards2:hover {
     animation-play-state: paused;
@@ -280,7 +274,7 @@ h1 {
     padding: 10px;
 }
 .placesCard:nth-child(1) {
-    background-image: url(https://img.freepik.com/free-photo/water-temple-bratan-lake_1385-1793.jpg?w=1480&t=st=1671967388~exp=1671967988~hmac=f0ebfb6462759c98f11366fd5b5266cf9c4c8d776875b8065ab387c0670de4e5);
+    background-image: url(./img/UlunDanuBratanTemple.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 200px;
@@ -289,7 +283,7 @@ h1 {
     grid-column: 1 / span 1;
 }
 .placesCard:nth-child(2) {
-    background-image: url(https://img.freepik.com/free-photo/shot-breathtaking-giant-mountain-covered-forests-gleaming-cloudy-sky_181624-30629.jpg?w=1480&t=st=1671975307~exp=1671975907~hmac=4ddefa6f635b62620265bc059d0745ac45d28391d5b10dd46220137f71005f0d);
+    background-image: url(./img/VolcanoAgung.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 200px;
@@ -298,7 +292,7 @@ h1 {
     grid-column: 2 / span 1;
 }
 .placesCard:nth-child(3) {
-    background-image: url(https://img.freepik.com/free-photo/rice-fields-ubud-bali_501050-1027.jpg?w=1480&t=st=1671974803~exp=1671975403~hmac=48b5a380606c5101d9d191a2ce20f8f88da2937fbb2fb8d69808685d4f45cd06);
+    background-image: url(./img/TegalalangRiceTerrace.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 200px;
@@ -307,7 +301,7 @@ h1 {
     grid-column: 3 / span 1;
 }
 .placesCard:nth-child(4) {
-    background-image: url(https://img.freepik.com/free-photo/aerial-view-kelingking-beach-nusa-penida-island-bali-indonesia_335224-309.jpg?w=1480&t=st=1671975153~exp=1671975753~hmac=f9a8269b892905dfcb09f514bdedbad704cc816f55f63d97a11d4ad80a4779e5);
+    background-image: url(./img/KelingkingBeach.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 200px;
@@ -316,7 +310,7 @@ h1 {
     grid-column: 1 / span 1;
 }
 .placesCard:nth-child(5) {
-    background-image: url(https://img.freepik.com/free-photo/temple-gates-lempuyang-luhur-temple-bali-indonesia_335224-363.jpg?w=1480&t=st=1671974879~exp=1671975479~hmac=02f8d238af20742c518ce574079041d2d75b7692813288d2ddcca1b654d3b8bf);
+    background-image: url(./img/LempuyangTemple.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 200px;
@@ -325,7 +319,7 @@ h1 {
     grid-column: 2 / span 1;
 }
 .placesCard:nth-child(6) {
-    background-image: url(https://img.freepik.com/free-photo/cute-mother-macaque-monkey-holding-its-baby_181624-29415.jpg?w=1480&t=st=1671975016~exp=1671975616~hmac=7c8c70039baf1217300614c7b7efb7b5db7d6682553601c6a4007c376eec7ebf);
+    background-image: url(./img/MonkeyForest.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 200px;
@@ -347,7 +341,8 @@ h1 {
 }
 .ticketsHotels {
     background-color: lightseagreen;
-    background-image: url(https://img.freepik.com/free-photo/beautiful-view-boat-sea-tropical-beach-gili-trawangan-lombok-indonesia_158538-26123.jpg?w=1380&t=st=1671995751~exp=1671996351~hmac=edafa1beada664d7994428e2b3feaf2545f4ffce4ff79ff026c4ea4e7b72f071);
+    background-image: url(./img/boat.jpg);
+    background-size: 100vw 100vh;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -383,14 +378,14 @@ h1 {
     height: 400px;
 }
 .ticketsHotelsCards:nth-child(1) {
-    background-image: url(https://img.freepik.com/free-photo/airplane-sunset_1150-8338.jpg?w=1480&t=st=1671995895~exp=1671996495~hmac=d33df463791ac0a8709979fad8e338cca0fd76a84616d258f14066ae0dbdcaff);
+    background-image: url(./img/airplane.jpg);
     background-size: 100% 300px;
     background-repeat: no-repeat;
     background-position: top center;
     background-color: rgba(255, 250, 250, 0.850);
 }
 .ticketsHotelsCards:nth-child(2) {
-    background-image: url(https://img.freepik.com/free-photo/transparent-bubble-tent-glamping-night_1268-20693.jpg?w=2000&t=st=1671995392~exp=1671995992~hmac=5030979a644d2386ac952bbe89ec8d63df5dac04ef4529fc49af52947e0682f7);
+    background-image: url(./img/bubble.jpg);
     background-size: 100% 300px;
     background-repeat: no-repeat;
     background-position: top center;
@@ -409,7 +404,7 @@ h1 {
     width: 100vw;
     height: 300px;
     background-color: lightseagreen;
-    background-image: url(https://img.freepik.com/free-photo/beautiful-tropical-sunset-with-coconut-palm-trees-beach-blue-sky-with-vintage-effect-toned_158538-26110.jpg?w=1380&t=st=1671979540~exp=1671980140~hmac=db9b57b5f54705e6f9fe2a62ef4a724ffcdf9ae4342c88d475163cc59a6434a2);
+    background-image: url(./img/palms.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: top center;
