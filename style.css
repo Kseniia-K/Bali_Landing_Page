@@ -140,20 +140,27 @@ h1 {
 .weather {
     background-color: pink;
     width: 100vw;
-    height: calc(100vh - 40px);
+    height: calc(100vh - 160px);
     display: flex;
     flex-direction: column;
     position: relative;
+    background-image: url(https://img.freepik.com/free-photo/kelingking-beach-sunset-nusa-penida-island-bali-indonesia_335224-338.jpg?w=1480&t=st=1671960709~exp=1671961309~hmac=afa17346152848ae3c9423ea0ef07091cebca87e5a2be959129657ff90b2eb8d);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .weather>h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: black;
 }
 .cards1 {
     height: 400px;
     width: calc(100% - 300px);
-    background-color: lavender;
+    /* background-color: lavender; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -163,14 +170,15 @@ h1 {
     transition-duration: 2s;
     transition-property: transform;
     transition-timing-function: linear;
-    animation-name: circle1;
-    animation-duration: 18s;
+    /* animation-name: circle1; */
+    animation-duration: 24s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     /* position: absolute;
     top: 68px; */
     position: relative;
     z-index: 1;
+    margin-top: 0;
 }
 .cards1:hover {
     animation-play-state: paused;
@@ -198,7 +206,7 @@ h1 {
     }
 }
 .cards2 {
-    background-color: bisque;
+    /* background-color: bisque; */
     height: 400px;
     width: calc(100% - 300px);
     display: flex;
@@ -210,13 +218,13 @@ h1 {
     transition-duration: 2s;
     transition-property: transform;
     transition-timing-function: linear;
-    animation-name: circle2;
-    animation-duration: 16.5s;
+    /* animation-name: circle2; */
+    animation-duration: 23s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     /* position: relative; */
     position: absolute;
-    top: 68px;
+    top: 91px;
     /* z-index: -1; */
 }
 .cards2:hover {
@@ -229,4 +237,75 @@ h1 {
     height: 160px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(100, 148, 237, 0.8);
+    color: snow;
+    padding-top: 15px;
+}
+.weatherCard>h3 {
+    font-size: 25px;
+    margin: 10px 0 4px;
+}
+.weatherCard>p {
+    font-size: 25px;
+    margin-top: 5px;
+}
+.placesCard {
+    border: 1px solid inherit;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: snow;
+}
+.places {
+    background-color: rgb(134, 199, 240);
+    width: 100vw;
+    margin-bottom: 20px;
+}
+.placesNew {
+    display: grid;
+    grid-template-columns: repeat(3, 340px);
+    grid-template-rows: repeat(4, 130px);
+    gap: 10px;
+    justify-content: center;
+    margin: 35px 0;
+}
+.places>h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.placesCard:nth-child(1) {
+    background-image: url(https://img.freepik.com/free-photo/water-temple-bratan-lake_1385-1793.jpg?w=1480&t=st=1671967388~exp=1671967988~hmac=f0ebfb6462759c98f11366fd5b5266cf9c4c8d776875b8065ab387c0670de4e5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+    background-position: top center;
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 1;
+}
+.placesCard:nth-child(2) {
+    grid-row: 1 / span 2;
+    grid-column: 2 / span 1;
+}
+.placesCard:nth-child(3) {
+    grid-row: 1 / span 2;
+    grid-column: 3 / span 1;
+}
+.placesCard:nth-child(4) {
+    grid-row: 3 / span 2;
+    grid-column: 1 / span 1;
+}
+.placesCard:nth-child(5) {
+    grid-row: 3 / span 2;
+    grid-column: 2 / span 1;
+}
+.placesCard:nth-child(6) {
+    grid-row: 3 / span 2;
+    grid-column: 3 / span 1;
 }
