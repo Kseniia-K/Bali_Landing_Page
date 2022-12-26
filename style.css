@@ -217,7 +217,7 @@ h1 {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     position: absolute;
-    top: 81px;
+    top: 91px;
 }
 .cards2:hover {
     animation-play-state: paused;
